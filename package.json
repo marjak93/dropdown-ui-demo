@@ -9,6 +9,7 @@
   "author": "Martin Jakobsen <martinjakobsen93@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@marjak93/dropdown-ui": "^1.1.6",
     "autoprefixer": "^9.7.6",
     "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.12.4",
