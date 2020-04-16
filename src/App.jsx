@@ -100,6 +100,17 @@ const App = () => {
         <h2>Data</h2>
         Current value: {value ? value : "none"}
       </section>
+      <footer>
+        <p>
+          <a
+            href="https://github.com/marjak93/dropdown-ui-demo"
+            target="_blank"
+            title="GitHub project"
+          >
+            GitHub project
+          </a>
+        </p>
+      </footer>
     </div>
   );
 };
