@@ -11,5 +11,16 @@ body {
 .description,
 .component,
 .data {
+  border-top: 1px solid black;
   margin-bottom: 1em;
+}
+
+.table > thead > tr > th {
+  text-align: left;
+  min-width: 180px;
+}
+
+.table td,
+.table th {
+  padding: 0.25em;
 }
