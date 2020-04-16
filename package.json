@@ -5,17 +5,19 @@
   "main": "src/index.html",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "start": "serve dist -n -p $PORT"
   },
   "author": "Martin Jakobsen <martinjakobsen93@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@marjak93/dropdown-ui": "^1.1.6",
+    "@marjak93/dropdown-ui": "^1.2.0",
     "autoprefixer": "^9.7.6",
     "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.12.4",
     "postcss-modules": "^2.0.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "serve": "^11.3.0"
   }
 }
